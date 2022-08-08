@@ -22,7 +22,7 @@ border:0px solid;
 padding: 10px;
 font-style:unset;
 }
-.k:hover,.logo:hover,.address div:hover,.box1:hover,.box2:hover,.buy:hover{
+.k:hover,.logo:hover,.address div:hover,.box1:hover,.box2:hover,.buy:hover,.pic1:hover,.pic2:hover{
 transform:scale(1.1,1.1);
 transition:250ms;
 }
