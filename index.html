@@ -4,7 +4,7 @@
      
       <style>
     .box1{
-      background-image: url(file:///E:/knproject/Coffee-Shop.jpg);
+      background-image: url(./Coffee-Shop.jpg);
       background-position: center;
       background-size: cover;
       border-radius: 10px;
@@ -13,7 +13,7 @@
       
     }
     .box2{
-      background-image: url(file:///E:/knproject/coffee-grounds.jpg);
+      background-image: url(./coffee-grounds.jpg);
       background-position: center;
       background-size: cover;
       border-radius: 10px;
@@ -46,6 +46,7 @@
      p{
         font-family:sans-serif;
         font-size: 20px;
+        text-align: justify;
      }
      p::first-letter{
         font-size: 28px;
@@ -54,9 +55,9 @@
       
       justify-content: center;
       align-items: center;
-      font-family:'Great Vibes', cursive;
-      font-style: italic;
-      text-align: center;
+      
+     
+     
      }
      
      </style>
@@ -65,8 +66,8 @@
         <div class="head">
        <div class="logo"></div>
        <div class="but">
-        <button class="k"><b>ABOUT US</b></button>
-        <button class="k"><b>COFFEE BLENDS</b></button>
+        <button class="k" onclick="location.href='Aboutus.html'"><b>ABOUT US</b></button>
+        <button class="k" onclick="location.href='Coffeeblends.html'"><b>COFFEE BLENDS</b></button>
         <button class="k" onclick="location.href='Brewingequip.html'"><b>BREWING EQUIPMENTS</b></button>
         <button class="k" onclick="location.href='Learn.html'"><b>LEARN WITH US</b></button>
         <button class="k" onclick="location.href='Contact.html'"><b>CONTACT</b></button>
@@ -90,16 +91,16 @@
         </div>
         <table align="center">
          <tr>
-            <td style="width:1000px;text-align: center;">
-               <p><i>“WakeCup isn’t just a call to rise and win, 
+            <td style="width:1000px;">
+               <p>“WakeCup isn’t just a call to rise and win, 
                   it is our mission to tap into the finest plantations and estates for the greatest
                coffee that our planet produces. Whether it’s a steaming mug of straight up cappuccino,a tumbler
                   of flavoursome Indian filter kaapi, or a tall glass of vanilla matcha latte - we’ve
-                          got the blend that puts the zing in your step and the life in your day!”</i></p>
+                          got the blend that puts the zing in your step and the life in your day!”</p>
            
             
-          <p> <i><b>WakeCup with us!</b>
-                      </i></p>
+          <p style="text-align: center;"> <b>WakeCup with us!</b>
+                      </p>
             </td>
          </tr>
         </table>
@@ -112,5 +113,6 @@
          <div class="sm"><img class="op" src="l.jpg"></div>
         </div>
         <div style="text-align: center;"><a href="#top">Top</a></div>
+        <div style="text-align: center;"><a href="index.html">Home</a></div>
     </body>
 </html>

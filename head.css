@@ -1,6 +1,8 @@
 body{
-        background-color:rgb(211, 186, 153);
+        background-color:rgb(243, 235, 217);
        padding: 20px;
+       font-family: sans-serif;
+       text-align: justify;
     }
 .head{
     display:flex;
@@ -10,14 +12,14 @@ body{
 .logo{
 width:200px;
 height:100px;
-background-image: url(file:///E:/knproject/WakeCup_500x500.png);
+background-image: url(./WakeCup_500x500.png);
 background-position: center;
 background-size: cover;
 border-radius: 7px;
 
 }
 .k{
-background-color:rgb(211, 186, 153);
+background-color:rgb(243, 235, 217);
 border:0px solid;
 padding: 10px;
 font-style:unset;
@@ -35,7 +37,7 @@ transition:250ms;
  }
  h1{
     text-align: center;
-    font-family:sans-serif;
+    
     padding:10px;
     margin:10px;
  }
@@ -55,3 +57,6 @@ transition:250ms;
     height:37px;
    }
 
+@media screen and (max-width:720px) {
+   .imgg{ width:680px;}
+}
